@@ -12,9 +12,7 @@ public class ViewHolder extends RecyclerView.ViewHolder {
     public ViewHolder(@NonNull ItemTaskBinding binding) {
         super(binding.getRoot());
         this.binding = binding;
-
     }
-
     public void onBind(NoteModel model) {
         binding.titleItem.setText(model.getTitle());
     }
