@@ -16,5 +16,4 @@ public class NoteModel implements Serializable {
     }
 
     private String title;
-
 }
